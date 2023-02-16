@@ -11,4 +11,3 @@ Student Info
 
 * Student Name: Nguyễn Lê Minh Đức
 * Student ID: BI12-092
-
