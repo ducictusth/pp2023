@@ -8,9 +8,39 @@ class Student:
         self.name = name
         self.dob = dob
 
+    def get_id(self):
+        return self.id
+
+    def get_name(self):
+        return self.name
+
+    def get_dob(self):
+        return self.dob
+
+    def set_id(self, id):
+        self.id = id
+
+    def set_name(self, name):
+        self.name = name
+
+    def set_dob(self, dob):
+        self.dob = dob
+
 class Course:
     def __init__(self, id, name):
         self.id = id
+        self.name = name
+
+    def get_id(self):
+        return self.id
+
+    def get_name(self):
+        return self.name
+
+    def set_id(self, id):
+        self.id = id
+
+    def set_name(self, name):
         self.name = name
 
 class Mark:
@@ -18,6 +48,25 @@ class Mark:
         self.student = student
         self.course = course
         self.mark = mark
+
+    def get_student(self):
+        return self.student
+
+    def get_course(self):
+        return self.course
+
+    def get_mark(self):
+        return self.mark
+
+    def set_student(self, student):
+        self.student = student
+
+    def set_course(self, course):
+        self.course = course
+
+    def set_mark(self, mark):
+        self.mark = mark
+
 
 students = []
 courses = []
